@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Create Nest build"
+yarn run nest build
+
 echo 'Remove any existing React build.'
 rm -rf ./build
 
